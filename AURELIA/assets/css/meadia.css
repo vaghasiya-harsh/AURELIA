@@ -1,0 +1,125 @@
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+@media (prefers-reduced-motion: reduce) {
+
+    .press-box-2,
+    .press-box-3,
+    .press-outer-box,
+    .press-box-2 *,
+    .press-box-3 *,
+    .press-outer-box * {
+        transition-duration:
+            0.01ms !important;
+        animation-duration:
+            0.01ms !important;
+        animation-iteration-count:
+            1 !important;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .wrapper,
+    .slider-track {
+        animation: none;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+
+    .cursor-dot,
+    .cursor-outline {
+        display: none;
+    }
+
+    body,
+    a,
+    button,
+    input,
+    textarea,
+    select {
+        cursor: auto;
+    }
+
+}
+
+/* =========================================================
+   MOBILE / TOUCH DEVICES
+   ========================================================= */
+
+@media (hover: none) and (pointer: coarse) {
+
+    .cursor-dot,
+    .cursor-outline {
+        display: none;
+    }
+
+    body,
+    a,
+    button,
+    input,
+    textarea,
+    select {
+        cursor: auto;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .mid-wrapper {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: #121414;
+        padding: 20px;
+    }
+
+    .mid-wrapper.is-open {
+        display: block;
+    }
+
+    .mid-wrapper ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .right-wrapper {
+        display: none;
+    }
+
+    .email-status {
+        right: 8px;
+    }
+
+    .email-message {
+        font-size: 9px;
+    }
+
+    .press-box-2:hover,
+    .press-box-3:hover,
+    .press-outer-box:hover {
+        transform:
+            translateY(-5px);
+
+    }
+
+    .press-box-2:hover span,
+    .press-box-3:hover span,
+    .press-outer-box:hover span {
+        transform:
+            translateX(3px);
+
+    }
+
+    
+
+}
