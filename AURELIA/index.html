@@ -1,0 +1,917 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<!-- head start -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aurelia — Swiss watchmaking since 1904. Timeless precision engineered in Geneva." />
+  <title>AURELIA</title>
+  <link rel="shortcut icon" href="assets/img/Fevicon.png" type="image/x-icon" />
+
+  <!-- Google Fonts for Luxury Swiss Horology -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/meadia.css" />
+</head>
+<!-- head end -->
+
+<body>
+  <!-- Custom Desktop Cursor -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-outline" aria-hidden="true">
+    <span class="cursor-text"></span>
+  </div>
+
+  <!-- header start -->
+  <header class="header-main" id="headerMain">
+    <div class="container">
+      <div class="header-wrapper">
+        <!-- Left Wrapper / Logo -->
+        <div class="left-wrapper">
+          <a href="#AURELIA" title="AURELIA">
+            <h3 class="typing-text">AURELIA</h3>
+          </a>
+        </div>
+
+        <!-- Mid Wrapper / Navigation -->
+        <div class="mid-wrapper" id="primaryNav">
+          <nav aria-label="Main Navigation">
+            <ul>
+              <li>
+                <a href="#HERITAGE">HERITAGE</a>
+              </li>
+              <li>
+                <a href="#COLLECTION">COLLECTION</a>
+              </li>
+              <li>
+                <a href="#CRAFTSMANSHIP">CRAFTSMANSHIP</a>
+              </li>
+              <li>
+                <a href="#FEATURES">FEATURES</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Right Wrapper / Actions -->
+        <div class="right-wrapper">
+          <!-- Live Geneva Clock Badge -->
+          <div class="geneva-clock-badge" title="Live Swiss Observatory Time">
+            <span class="clock-pulse-dot" aria-hidden="true"></span>
+            <span class="geneva-clock-time">GENÈVE 12:00:00 CET</span>
+          </div>
+
+          <!-- Theme Toggle Button -->
+          <div id="theme-btn" class="theme-toggle-btn" role="button" tabindex="0" aria-label="Toggle Theme">
+            <img id="theme-img" src="right-wrapper.svg" alt="theme toggle" width="18" height="18" />
+          </div>
+
+          <!-- Dynamic Rounded Reserve Button -->
+          <div class="Reserve-btn luxury-btn btn-reserve-trigger" role="button" tabindex="0">
+            <p>RESERVE</p>
+            <span class="btn-arrow">→</span>
+          </div>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primaryNav" type="button">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header ends -->
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <nav class="mobile-nav-links" aria-label="Mobile Navigation">
+      <a href="#HERITAGE">HERITAGE <span>→</span></a>
+      <a href="#COLLECTION">COLLECTION <span>→</span></a>
+      <a href="#CRAFTSMANSHIP">CRAFTSMANSHIP <span>→</span></a>
+      <a href="#FEATURES">FEATURES <span>→</span></a>
+    </nav>
+    <div class="mobile-drawer-footer">
+      <div class="geneva-clock-badge" style="justify-content: center; width: 100%;">
+        <span class="clock-pulse-dot" aria-hidden="true"></span>
+        <span class="geneva-clock-time">GENÈVE 12:00:00 CET</span>
+      </div>
+      <div class="Reserve-btn luxury-btn luxury-btn-solid btn-reserve-trigger" style="width: 100%; text-align: center;" role="button" tabindex="0">
+        <p>RESERVE TIMEPIECE</p>
+        <span class="btn-arrow">→</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero-section -->
+    <section id="AURELIA" class="hero-section">
+      <!-- Decorative Background Watermark (z-index: 0) -->
+      <div class="Decorative-hero" aria-hidden="true">
+        <h2>Precision</h2>
+      </div>
+
+      <div class="container">
+        <div class="hero-cover">
+          <!-- Hero Text -->
+          <div class="hero-text">
+            <div class="Geneve" data-reveal>
+              <h4>EST. 1904 GENÈVE</h4>
+            </div>
+            <div class="timeless-precision">
+              <div class="timeless-head">
+                <h1 class="typing-text">Timeless</h1>
+              </div>
+              <div class="timeless-last">
+                <h1 class="typing-text">Precision.</h1>
+              </div>
+            </div>
+            <div class="hero-text-mid" data-reveal>
+              <p>
+                Engineering for the modern icon. A legacy of horological mastery
+                redefined for those who command their own time.
+              </p>
+            </div>
+            <div class="hero-text-last">
+              <a href="#COLLECTION" class="hero-link-styled" data-reveal>
+                <p class="order-1">EXPLORE COLLECTION</p>
+                <div class="order-2 self-end" id="horizontal"></div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Image & Halo -->
+          <div class="hero-type-image cursor-image" data-reveal="left">
+            <div class="hero-halo" aria-hidden="true"></div>
+            <a href="#COLLECTION">
+              <img src="assets/img/svg/Hero-image.svg" alt="Hero-image.svg" class="hero-watch-img" width="360" height="420" />
+            </a>
+            <!-- Floating Horology Pill -->
+            <div class="hero-floating-pill">
+              <p>CALIBRE AO-01</p>
+              <h5>72h Flying Tourbillon</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero-section -->
+
+    <!-- Geneva Heritage Section -->
+    <section id="HERITAGE" class="Geneva-Heritage">
+      <div class="container">
+        <div class="Geneva-content">
+          <div class="Geneva-inner-img cursor-image" data-reveal="left">
+            <a href="#CRAFTSMANSHIP">
+              <img src="assets/img/Geneva Heritage.png" alt="Geneva Heritage" width="600" height="420" loading="lazy" />
+            </a>
+          </div>
+          <div class="Geneva-text">
+            <div class="Geneva-title" data-reveal="right">
+              <p>THE GENEVA ORIGINS</p>
+            </div>
+            <div class="Geneva-head" data-reveal="right">
+              <h3>Born in Geneva. Refined by Time.</h3>
+            </div>
+            <div class="Geneva-info">
+              <div class="info-first" data-reveal="right">
+                <p>
+                  Founded in the historic Saint- Gervais district, Aurelia began
+                  as a quiet rebellion against mass production. Our 1904 mandate
+                  was simple: create the perfect gear, one at a time. Through
+                  two world wars and the quartz revolution, our commitment to
+                </p>
+              </div>
+              <div class="info-sec" data-reveal="right">
+                <p>
+                  the mechanical heartbeat remained unshaken. Today, the same
+                  limestone walls of our atelier house the fourth generation of
+                  master watchmakers, preserving techniques that digital
+                  algorithms could never replicate.
+                </p>
+              </div>
+            </div>
+            <div class="Geneva-foot" data-reveal="right">
+              <a href="#CRAFTSMANSHIP">
+                <p>OUR FULL STORY</p>
+                <div id="underline"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Geneva Heritage Section -->
+
+    <!-- Section - Marquee -->
+    <section class="Marquee-slider" aria-label="Press Recognition">
+      <div class="slide-content">
+        <div class="slider-track">
+          <div class="sliderbar">
+            <h4>HODINKEE</h4>
+          </div>
+          <div class="sliderbar">
+            <h4>GQ</h4>
+          </div>
+          <div class="sliderbar">
+            <h4>VOGUE</h4>
+          </div>
+          <div class="sliderbar">
+            <h4>ROBB REPORT</h4>
+          </div>
+          <!-- duplicate set for seamless loop -->
+          <div class="sliderbar" aria-hidden="true">
+            <h4>HODINKEE</h4>
+          </div>
+          <div class="sliderbar" aria-hidden="true">
+            <h4>GQ</h4>
+          </div>
+          <div class="sliderbar" aria-hidden="true">
+            <h4>VOGUE</h4>
+          </div>
+          <div class="sliderbar" aria-hidden="true">
+            <h4>ROBB REPORT</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section - Marquee -->
+
+    <!-- Features-content -->
+    <section id="FEATURES" class="Features-content">
+      <div class="container">
+        <div class="features-wrapper">
+          <div class="features-inner">
+            <div class="inner-head" data-reveal>
+              <h4>The Aurelia Standard</h4>
+            </div>
+            <div class="inner-para" data-reveal>
+              <p>Merging century-old tradition with aerospace technology.</p>
+            </div>
+          </div>
+          <div class="features-outer">
+            <div class="outer-part chamfered" data-reveal>
+              <div class="outer-part-head">
+                <a href="#COLLECTION">
+                  <img src="assets/img/svg/outer-1.svg" alt="outer-1" width="28" height="28" />
+                </a>
+                <h5>Swiss Calibration</h5>
+                <p>
+                  COSC chronometer certified movements, hand-assembled by a
+                  single master artisan in our Geneva atelier.
+                </p>
+              </div>
+            </div>
+            <div class="outer-sec chamfered" data-reveal>
+              <div class="outer-sec-head">
+                <a href="#COLLECTION">
+                  <img src="assets/img/svg/outer-2.svg" alt="outer-2" width="28" height="28" />
+                </a>
+                <h5>Titanium Grade 5</h5>
+                <p>
+                  Utilizing recycled aerospace-grade titanium for an
+                  unparalleled strength-to-weight ratio and hypoallergenic
+                  comfort.
+                </p>
+              </div>
+            </div>
+            <div class="outer-part chamfered" data-reveal>
+              <div class="outer-part-head">
+                <a href="#COLLECTION">
+                  <img src="assets/img/svg/outer-3.svg" alt="outer-3" width="28" height="28" />
+                </a>
+                <h5>Heritage Care</h5>
+                <p>
+                  A generational warranty and lifetime servicing commitment that
+                  ensures your legacy remains in motion.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features-content -->
+
+    <!-- product-section -->
+    <section id="COLLECTION" class="product-content">
+      <div class="container">
+        <div class="product-wrapper">
+          <div class="product-inner">
+            <div class="inner-head">
+              <p data-reveal>2024 EDITIONS</p>
+              <h5 data-reveal>Curated Icons</h5>
+            </div>
+            <div class="inner-bot">
+              <button class="slider-arrow-btn" id="prevWatchBtn" aria-label="Previous Watch" type="button" data-reveal>
+                <img src="assets/img/svg/left-side.svg" alt="left-side" width="16" height="16" />
+              </button>
+              <button class="slider-arrow-btn" id="nextWatchBtn" aria-label="Next Watch" type="button" data-reveal>
+                <img src="assets/img/svg/right-side.svg" alt="right-side" width="16" height="16" />
+              </button>
+            </div>
+          </div>
+          <div class="product-outer">
+            <!-- Watch 1 -->
+            <div class="outer-info cursor-image" data-category="titanium" data-reveal>
+              <div class="watch-image-container">
+                <img src="assets/img/product-outer-1.png" alt="product-outer-1" width="220" height="260" loading="lazy" />
+              </div>
+              <h5>The Obsidian</h5>
+              <p>$12,400</p>
+              <div class="watch-card-actions">
+                <button class="luxury-btn btn-quick-view" data-watch="obsidian" type="button">
+                  <span>INSPECT</span>
+                </button>
+                <button class="luxury-btn luxury-btn-solid btn-reserve-trigger" data-preferred="The Obsidian" type="button">
+                  <span>RESERVE</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Watch 2 -->
+            <div class="outer-info cursor-image" data-category="tourbillon" data-reveal>
+              <div class="watch-image-container">
+                <img src="assets/img/product-outer-2.png" alt="product-outer-2" width="220" height="260" loading="lazy" />
+              </div>
+              <h5>The Celestial</h5>
+              <p>$18,900</p>
+              <div class="watch-card-actions">
+                <button class="luxury-btn btn-quick-view" data-watch="celestial" type="button">
+                  <span>INSPECT</span>
+                </button>
+                <button class="luxury-btn luxury-btn-solid btn-reserve-trigger" data-preferred="The Celestial" type="button">
+                  <span>RESERVE</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Watch 3 -->
+            <div class="outer-info cursor-image" data-category="chronometer" data-reveal>
+              <div class="watch-image-container">
+                <img src="assets/img/product-outer-3.png" alt="product-outer-3" width="220" height="260" loading="lazy" />
+              </div>
+              <h5>The Verdant</h5>
+              <p>$24,500</p>
+              <div class="watch-card-actions">
+                <button class="luxury-btn btn-quick-view" data-watch="verdant" type="button">
+                  <span>INSPECT</span>
+                </button>
+                <button class="luxury-btn luxury-btn-solid btn-reserve-trigger" data-preferred="The Verdant" type="button">
+                  <span>RESERVE</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product-section -->
+
+    <!-- craft-section -->
+    <section id="CRAFTSMANSHIP" class="craft-content">
+      <div class="container">
+        <div class="craft-wrapper">
+          <div class="wrapper-img cursor-image" data-reveal="left">
+            <img src="assets/img/Geneva Heritage.png" alt="Geneva Heritage" width="580" height="420" loading="lazy" />
+          </div>
+          <div class="wrapper-text">
+            <div class="wrapper-top" data-reveal="right">
+              <p id="top-wrap">ARTISTRY</p>
+              <p class="text-sec">METALS</p>
+              <p class="text-sec">LEGACY</p>
+            </div>
+            <div class="wrapper-head" data-reveal="right">
+              <h3>A Century of Mastery</h3>
+            </div>
+            <div class="craft-para">
+              <p data-reveal="right">
+                Each Aurelia movement is hand- finished by a single master
+                watchmaker over four months. We believe that true luxury cannot
+                be rushed; it must be coaxed from raw metal through patience and
+                skill. From the mirror-polished bevels of
+              </p>
+              <p data-reveal="right">
+                the bridges to the hand-painted indices, every micron is
+                considered. Our atelier remains one of the few that still
+                practices traditional Anglage finishing, ensuring that the
+                interior beauty matches the exterior precision.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- craft-section -->
+
+    <!-- status section -->
+    <div class="status-content">
+      <div class="container">
+        <div class="status-inner">
+          <div class="status-box" data-reveal>
+            <h3 class="counter-val" data-target="12000" data-suffix="+">12000+</h3>
+            <p>PIECES CRAFTED</p>
+          </div>
+          <div class="status-box" data-reveal>
+            <h3 class="counter-val" data-target="45" data-suffix="">45</h3>
+            <p>MASTER WATCHMAKERS</p>
+          </div>
+          <div class="status-box" data-reveal>
+            <h3 class="counter-val" data-target="120" data-suffix="+">120+</h3>
+            <p>YEARS OF HERITAGE</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- status section -->
+
+    <!-- Testimonial section -->
+    <section class="Testimonial">
+      <div class="container">
+        <div class="Testimonial-inner">
+          <div class="testimonial-content">
+            <a href="#" data-reveal>
+              <img src="assets/img/svg/Test.svg" alt="Test" width="44" height="44" />
+            </a>
+            <h3 data-reveal>
+              "Aurelia doesn't just tell time; it commands it. A true
+              masterpiece that bridges the gap between mechanical engineering
+              and pure art."
+            </h3>
+            <p data-reveal>JULIAN V. — COLLECTOR</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial section -->
+
+    <!-- press-section -->
+    <section class="press-content">
+      <div class="container">
+        <div class="press-contet">
+          <div class="press-wrapper">
+            <div class="press-box-1" data-reveal="left">
+              <h3>In the Press</h3>
+              <p>Global recognition for our uncompromising standards.</p>
+            </div>
+            <div class="press-inner">
+              <div class="press-box-2" data-reveal>
+                <p>THE NEW YORK TIMES</p>
+                <h4>
+                  "The last bastion of purely mechanical soul in a digital
+                  world."
+                </h4>
+                <span>READ ARTICLE →</span>
+              </div>
+              <div class="press-box-3" data-reveal>
+                <p>LE MONDE</p>
+                <h4>"Un défi à la rapidité de notre époque moderne."</h4>
+                <span>READ ARTICLE →</span>
+              </div>
+              <div class="press-outer-box" data-reveal>
+                <p>FINANCIAL TIMES</p>
+                <h4>
+                  "Investment grade horology that defies market volatility."
+                </h4>
+                <span>READ ARTICLE →</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- press-section -->
+
+    <!-- Pricing-section -->
+    <section class="price-content">
+      <div class="container">
+        <div class="price-wrapper">
+          <div class="price-inner" data-reveal>
+            <h3>Ownership Tiers</h3>
+          </div>
+          <div class="price-outer">
+            <!-- Tier 1: Essential -->
+            <div class="price-outer-box chamfered" data-reveal>
+              <h4>THE ESSENTIAL</h4>
+              <div class="price-out-head" data-reveal>
+                <h3>$8,500</h3>
+                <p>Start</p>
+              </div>
+              <div class="price-out-center">
+                <div class="out-center-combo" data-reveal>
+                  <img src="assets/img/svg/right-price.svg" alt="right-price" width="14" height="14" />
+                  <p>Standard Swiss Movement</p>
+                </div>
+                <div class="out-center-combo" data-reveal>
+                  <img src="assets/img/svg/right-price.svg" alt="right-price" width="14" height="14" />
+                  <p>Grade 2 Titanium Case</p>
+                </div>
+                <div class="out-center-combo" data-reveal>
+                  <img src="assets/img/svg/right-price.svg" alt="right-price" width="14" height="14" />
+                  <p>5 Year Global Warranty</p>
+                </div>
+              </div>
+              <div class="btn-inquire luxury-btn btn-reserve-trigger" data-preferred="The Essential" data-reveal role="button" tabindex="0">
+                <p>INQUIRE</p>
+                <span class="btn-arrow">→</span>
+              </div>
+            </div>
+
+            <!-- Tier 2: Signature -->
+            <div class="price-outer-sec chamfered" data-reveal="zoom">
+              <div class="outer-sec-top" style="display: flex; justify-content: space-between; align-items: center;">
+                <h4>THE SIGNATURE</h4>
+                <div class="outer-sec-header">
+                  <p>ELITE CHOICE</p>
+                </div>
+              </div>
+              <div class="outer-sec-center-head" data-reveal>
+                <h3>$15,200</h3>
+                <p>Avg</p>
+              </div>
+              <div class="outer-sec-center">
+                <div class="out-sec-combo" data-reveal>
+                  <img src="assets/img/svg/right-price.svg" alt="right-price" width="14" height="14" />
+                  <p>In-house Caliber Alpha</p>
+                </div>
+                <div class="out-sec-combo" data-reveal>
+                  <img src="assets/img/svg/right-price.svg" alt="right-price" width="14" height="14" />
+                  <p>18k Fairmined Gold Accents</p>
+                </div>
+                <div class="out-sec-combo" data-reveal>
+                  <img src="assets/img/svg/right-price.svg" alt="right-price" width="14" height="14" />
+                  <p>10 Year Heritage Warranty</p>
+                </div>
+                <div class="out-sec-combo" data-reveal>
+                  <img src="assets/img/svg/right-price.svg" alt="right-price" width="14" height="14" />
+                  <p>Private Collector Access</p>
+                </div>
+              </div>
+              <div class="outer-sec-center-last luxury-btn luxury-btn-solid btn-reserve-trigger" data-preferred="The Signature" data-reveal role="button" tabindex="0">
+                <p>CONFIGURE</p>
+                <span class="btn-arrow">→</span>
+              </div>
+            </div>
+
+            <!-- Tier 3: Bespoke -->
+            <div class="price-outer-box chamfered" data-reveal>
+              <h4>THE BESPOKE</h4>
+              <div class="price-out-head" data-reveal>
+                <h3 style="font-style: italic;">Consult</h3>
+                <p>Only</p>
+              </div>
+              <div class="price-out-center">
+                <div class="out-center-combo" data-reveal>
+                  <img src="assets/img/svg/right-price.svg" alt="right-price" width="14" height="14" />
+                  <p>One-of-one Creation</p>
+                </div>
+                <div class="out-center-combo" data-reveal>
+                  <img src="assets/img/svg/right-price.svg" alt="right-price" width="14" height="14" />
+                  <p>Meteorite Dial Options</p>
+                </div>
+                <div class="out-center-combo" data-reveal>
+                  <img src="assets/img/svg/right-price.svg" alt="right-price" width="14" height="14" />
+                  <p>Lifetime Global Concierge</p>
+                </div>
+              </div>
+              <div class="btn-request luxury-btn btn-reserve-trigger" data-preferred="The Bespoke" data-reveal role="button" tabindex="0">
+                <p>REQUEST MEETING</p>
+                <span class="btn-arrow">→</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing-section -->
+
+    <!-- Accordition section -->
+    <section class="Accordition-content">
+      <div class="container">
+        <div class="Accordi-wrapper">
+          <div class="Acco-inner" data-reveal>
+            <h3>Enquiries</h3>
+          </div>
+          <div class="Accordi-outer">
+            <!-- Box 1 -->
+            <div class="Accordi-outer-box is-active" data-reveal>
+              <button class="accordion-trigger" type="button">
+                <span>Waitlist Expectations</span>
+                <span class="accordion-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="accordion-content">
+                <div class="accordion-content-inner">
+                  Aurelia limits annual global manufacture to precisely 350 timepieces across all references to uphold uncompromising micro-mechanical finishing standards. Standard waitlist times range from 3 to 9 months depending on dial enamel choices and bespoke engravings.
+                </div>
+              </div>
+            </div>
+            <!-- Box 2 -->
+            <div class="Accordi-outer-box" data-reveal>
+              <button class="accordion-trigger" type="button">
+                <span>Geneva Certification</span>
+                <span class="accordion-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="accordion-content">
+                <div class="accordion-content-inner">
+                  Every Aurelia movement is certified with the prestigious Poinçon de Genève. This legally protected hallmark guarantees that the watch was hand-assembled in the Canton of Geneva and adheres to strict standards regarding polished chamfers, polished screwheads, and timing precision.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Accordition section -->
+
+    <!-- Section - Newsletter -->
+    <section class="Newsletter-section" id="newsletter">
+      <div class="container">
+        <div class="Newsletter-wraper">
+          <div class="Newsletter-content" data-reveal="zoom">
+            <div class="newsletter-ambient-glow" aria-hidden="true"></div>
+
+            <div class="Newsletter-inner">
+              <div class="newsletter-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span class="eyebrow-text">PRIVATE DISPATCH • GENÈVE</span>
+                <span class="eyebrow-line"></span>
+              </div>
+              <h4>The Aurelia Journal</h4>
+              <p>Subscribe for private previews, confidential allocations, and horological insights.</p>
+            </div>
+
+            <div class="Newsletter-outer">
+              <form id="newsletterForm" class="Newsletter-form" novalidate>
+                <div class="form-row">
+                  <div class="Newsletter-form-input email-field">
+                    <span class="input-icon-mail" aria-hidden="true">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                      </svg>
+                    </span>
+                    <input type="email" class="Newsletter-input" id="userEmail" name="email"
+                      placeholder="YOUR EMAIL ADDRESS" autocomplete="email" spellcheck="false" required aria-describedby="emailMessage">
+                    <span class="email-status" id="emailStatus" aria-hidden="true">
+                      <span class="status-icon icon-valid" title="Valid">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </span>
+                      <span class="status-icon icon-invalid" title="Invalid">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                          <line x1="18" y1="6" x2="6" y2="18"></line>
+                          <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                      </span>
+                      <span class="status-icon icon-spinner" title="Checking"></span>
+                    </span>
+                  </div>
+                  <button class="Newsletter-btn luxury-btn" id="newsletterBtn" type="submit" aria-label="Subscribe to the Aurelia Journal" data-reveal>
+                    <span class="btn-spinner" aria-hidden="true"></span>
+                    <span class="btn-text">SUBSCRIBE</span>
+                    <span class="btn-arrow" aria-hidden="true">→</span>
+                    <span class="btn-success-icon" aria-hidden="true">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+                <div class="email-message-wrap">
+                  <p class="email-message" id="emailMessage" aria-live="polite"></p>
+                </div>
+                <div class="newsletter-perks">
+                  <div class="perk-item">
+                    <span class="perk-icon">✧</span>
+                    <span>Private Previews</span>
+                  </div>
+                  <div class="perk-divider">•</div>
+                  <div class="perk-item">
+                    <span class="perk-icon">✧</span>
+                    <span>Bespoke Allocations</span>
+                  </div>
+                  <div class="perk-divider">•</div>
+                  <div class="perk-item">
+                    <span class="perk-icon">✧</span>
+                    <span>Confidential & Complimentary</span>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section - Newsletter -->
+
+    <!-- VIP-section -->
+    <section class="vip-content">
+      <div class="container">
+        <div class="vip-concierge">
+          <div class="vip-wrapper chamfered">
+            <div class="vip-inner">
+              <div class="vip-inner-text-head" data-reveal="left">
+                <h4>INVITATION ONLY</h4>
+              </div>
+              <div class="vip-inner-head" data-reveal="left">
+                <h2>The Private Suite</h2>
+              </div>
+              <div class="vip-inner-text" data-reveal="left">
+                <p>Ownership of an Aurelia is just the beginning. Our VIP Concierge
+                  provides a dedicated horology expert for lifetime maintenance, priority
+                  access to bespoke commissions, and private invitations to our Geneva
+                  atelier.</p>
+              </div>
+              <div class="vip-text-list">
+                <div class="vip-text-box" data-reveal="left">
+                  <span></span>
+                  <p>LIFETIME SERVICING</p>
+                </div>
+                <div class="vip-text-box" data-reveal="left">
+                  <span></span>
+                  <p>GLOBAL PICKUP</p>
+                </div>
+                <div class="vip-text-box" data-reveal="left">
+                  <span></span>
+                  <p>BESPOKE DESIGN</p>
+                </div>
+                <div class="vip-text-box" data-reveal="left">
+                  <span></span>
+                  <p>PRIVATE EVENTS</p>
+                </div>
+              </div>
+              <div class="vip-text-btn luxury-btn btn-reserve-trigger" data-preferred="The Private Suite" data-reveal="left" role="button" tabindex="0">
+                <p>REQUEST ACCESS</p>
+                <span class="btn-arrow">→</span>
+              </div>
+            </div>
+            <div class="vip-outer-img cursor-image" data-reveal="right">
+              <img src="assets/img/vip.png" alt="VIP" width="480" height="340" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- VIP-section -->
+  </main>
+
+  <!-- Footer-section -->
+  <footer class="Footer-section">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-head">
+          <div class="foot-head-box-1" data-reveal>
+            <h4>AURELIA</h4>
+            <p>Defining the pinnacle of Swiss
+              horology through innovation and
+              tradition.</p>
+          </div>
+          <div class="foot-head-box" data-reveal>
+            <h5>Haute Horlogerie</h5>
+            <a href="#HERITAGE">Heritage</a>
+            <a href="#COLLECTION">Collections</a>
+            <a href="#CRAFTSMANSHIP">Bespoke</a>
+          </div>
+          <div class="foot-head-box" data-reveal>
+            <h5>Services</h5>
+            <a href="#FEATURES">Service</a>
+            <a href="#vip">Concierge</a>
+            <a href="#headerMain">Boutiques</a>
+          </div>
+          <div class="foot-head-box" data-reveal>
+            <h5>Journal & Social</h5>
+            <a href="#headerMain">Instagram</a>
+            <a href="#headerMain">Journal</a>
+            <a href="#headerMain">Contact</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="foot-bot-one" data-reveal>
+            <p>© 2024 AURELIA GENÈVE</p>
+          </div>
+          <div class="foot-bot-sec">
+            <div class="foot-bot-sec-box" id="backToTop" role="button" tabindex="0">
+              <p>TOP</p>
+              <img src="assets/img/svg/top-side.svg" alt="arrow" width="14" height="14">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer-section -->
+
+  <!-- MODAL 1: WATCH QUICK VIEW (INSPECT SPECS) -->
+  <div class="modal-overlay" id="quickViewModal" role="dialog" aria-modal="true" aria-labelledby="modalWatchTitle">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close dialog" type="button">✕</button>
+      <div class="modal-content-grid">
+        <div class="modal-watch-visual">
+          <img id="modalWatchImg" src="assets/img/product-outer-1.png" alt="Watch Visual" />
+        </div>
+        <div class="modal-watch-info">
+          <div class="Geneve">
+            <h4>TECHNICAL SPECIFICATIONS</h4>
+          </div>
+          <h3 id="modalWatchTitle">The Obsidian</h3>
+          <div class="modal-price" id="modalWatchPrice">$12,400</div>
+          <p id="modalWatchDesc" style="font-size: 13px; color: var(--text-secondary); line-height: 1.6;"></p>
+          
+          <table class="modal-specs-table">
+            <tbody>
+              <tr>
+                <td>Calibre</td>
+                <td id="modalCalibre">AO-01 Automatic</td>
+              </tr>
+              <tr>
+                <td>Power Reserve</td>
+                <td id="modalPowerReserve">72 Hours</td>
+              </tr>
+              <tr>
+                <td>Case Material</td>
+                <td id="modalMaterial">Grade 5 Titanium</td>
+              </tr>
+              <tr>
+                <td>Diameter</td>
+                <td id="modalDiameter">40.5 mm</td>
+              </tr>
+              <tr>
+                <td>Water Resistance</td>
+                <td id="modalWaterResistance">100 Metres</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <button class="luxury-btn luxury-btn-solid" id="modalReserveAction" style="margin-top: 14px; width: 100%; border-radius: 6px;" type="button">
+            <p>RESERVE THIS ALLOCATION</p>
+            <span class="btn-arrow" aria-hidden="true">→</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: VIP CONCIERGE & APPOINTMENT RESERVATION -->
+  <div class="modal-overlay" id="reserveModal" role="dialog" aria-modal="true" aria-labelledby="reserveModalTitle">
+    <div class="modal-dialog" style="max-width: 540px;">
+      <button class="modal-close-btn" aria-label="Close dialog" type="button">✕</button>
+      <form class="reservation-form" id="reservationForm">
+        <div class="Geneve">
+          <h4>AURELIA PRIVATE CLIENT SERVICE</h4>
+        </div>
+        <h3 id="reserveModalTitle">Reserve An Allocation</h3>
+        <p>
+          Please provide your confidential details. An Aurelia Horology Specialist will reach out within 24 hours to arrange your private preview.
+        </p>
+
+        <div class="form-group">
+          <label for="clientName">Full Name</label>
+          <input type="text" class="form-control" id="clientName" placeholder="Lord / Lady / Dr. / M." required />
+        </div>
+
+        <div class="form-group">
+          <label for="clientEmail">Private Email</label>
+          <input type="email" class="form-control" id="clientEmail" placeholder="client@private.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="reserveWatchSelect">Timepiece of Interest</label>
+          <select class="form-control" id="reserveWatchSelect">
+            <option value="The Obsidian">The Obsidian ($12,400)</option>
+            <option value="The Celestial">The Celestial ($18,900)</option>
+            <option value="The Verdant">The Verdant ($24,500)</option>
+            <option value="The Essential Tier">The Essential Ownership Tier ($8,500)</option>
+            <option value="The Signature Tier">The Signature Ownership Tier ($15,200)</option>
+            <option value="The Bespoke Tier">The Bespoke Consultation</option>
+            <option value="The Private Suite Access">The Private Suite VIP Concierge</option>
+            <option value="Atelier Visit">Geneva Atelier Private Tour</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="clientLocation">Preferred Consultation Format</label>
+          <select class="form-control" id="clientLocation">
+            <option value="virtual">Private Digital Video Salon</option>
+            <option value="geneva">Geneva Atelier (Rue du Rhône)</option>
+            <option value="london">London Salon (New Bond St)</option>
+            <option value="newyork">New York Boutique (Madison Ave)</option>
+            <option value="residence">Private Residence / Office Visit</option>
+          </select>
+        </div>
+
+        <button class="luxury-btn luxury-btn-solid" style="margin-top: 10px; width: 100%; border-radius: 6px;" type="submit">
+          <p>CONFIRM RESERVATION REQUEST</p>
+          <span class="btn-arrow" aria-hidden="true">→</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Interactive Client Script -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
